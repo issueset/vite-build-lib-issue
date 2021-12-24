@@ -4,8 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:vite": "vite build",
+    "build:rollup": "rollup -c"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.1.1",
+    "electron-updater": "^4.6.1",
+    "rollup": "^2.62.0",
+    "vite": "^2.7.6"
+  }
 }
